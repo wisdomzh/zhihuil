@@ -8,7 +8,9 @@ before_install:
  - chmod +x mvnw
 
 script:
+  - echo "------------env start------------"
   - echo "envtest1: "$envtest1
   - echo "envtest2: "$envtest2
+  - echo "------------env end------------"
   - pwd && ls -la
   - mvn package
