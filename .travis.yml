@@ -2,7 +2,7 @@ language: java
 jdk: openjdk8
 
 env:
-- envtest1=zhihuil1 envtest2=zhihuil2
+- envtest1=zhihuil12 envtest2=zhihuil2
 
 before_install:
  - chmod +x mvnw
